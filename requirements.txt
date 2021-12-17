@@ -1,0 +1,6 @@
+streamlit==0.89.0
+matplotlib
+pymongo
+dnspython
+seaborn
+html5lib
