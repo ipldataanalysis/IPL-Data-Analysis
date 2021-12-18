@@ -3,6 +3,7 @@ import base64
 
 
 def app():
+    st.markdown("<script>window.parent.document.querySelector('section.main').scrollTo(0, 0);</script>", unsafe_allow_html=True)
     def image_to_bytes(image_path):
         image_file = open(image_path, "rb")
         image_bytes = image_file.read()
