@@ -73,9 +73,3 @@ def app():
         st.write("Om Shende")
         st.write("Athira Elma")
         st.write("Ishita Balodhi")
-
-        st.subheader("")
-        st.write("The source code for the website is present in the below github link")
-        github_link = '<a href="https://github.com/ipldataanalysis/IPL-Data-Analysis" target="_blank" ' \
-                      'class="Github_link" >Github link</a>'
-        st.markdown(github_link, unsafe_allow_html=True)
