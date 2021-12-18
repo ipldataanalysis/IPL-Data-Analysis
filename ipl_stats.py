@@ -40,13 +40,15 @@ def app():
     runs_per_season.set_index('Season', inplace=True)
     runs_scored_per_season = season.set_index('Season')
 
+    table_style = {
+        'color': 'white',
+        'font-size': '20px',
+        'background-color': '#b0e0fa',
+        'text-align': 'center'
+    }
+
     st.subheader("Total Matches played")
     with st.expander("Total Matches Played", expanded=True):
-
-        st.subheader("")
-        st.write("")
-        st.subheader("")
-
         columns = st.columns([1.5, 1])
         with columns[0]:
 
@@ -58,14 +60,7 @@ def app():
             st.pyplot(fig)
 
         with columns[1]:
-
             st.subheader("")
-            st.subheader("")
-            st.write("This plot gives a visualization about total matches played w.r.t season")
-            st.subheader("")
-            st.write(f"Matches played so far in IPL are {match_data.shape[0]}")
-            st.subheader("")
-            st.write("Below is the dataframe used in the visualization")
             total_matches_data = match_data['Season']
             dictionary = {}
             count = []
@@ -75,7 +70,7 @@ def app():
             dictionary['years'] = years
             dictionary['Count'] = count
             frame = pa.DataFrame.from_dict(dictionary)
-            st.dataframe(frame)
+            st.dataframe(frame.style.set_properties(**table_style))
 
     st.subheader("Total Runs Scored")
     with st.expander("Total Runs Scored", expanded=True):
@@ -90,16 +85,12 @@ def app():
             st.pyplot(fig)
 
         with columns[1]:
-
-            st.subheader("")
-            st.subheader("")
-            st.write(f"Total runs scored in each season is given below in the table")
             st.subheader("")
             total_runs = runs_per_season
             total_runs.index = npy.arange(1, len(total_runs) + 1)
             total_runs['Season'] = years
             total_runs = total_runs[['Season', 'matches', 'total_runs', 'Average Runs scored per match']]
-            st.dataframe(total_runs)
+            st.dataframe(total_runs.style.set_properties(**table_style))
 
     st.subheader("Toss Winners and Decisions")
     with st.expander("Toss Winners and Decisions", expanded=True):
@@ -117,11 +108,6 @@ def app():
             st.pyplot(fig)
 
         with columns[1]:
-
-            st.subheader("")
-            st.subheader("")
-            st.write("")
-            st.subheader("")
             toss_ranks = toss
             st.dataframe(toss_ranks)
 
@@ -138,14 +124,10 @@ def app():
 
         with columns[0]:
 
-            st.subheader("")
-            st.subheader("")
-            st.write("")
-            st.subheader("")
             toss_decisions_across_seasons = pa.DataFrame()
             toss_decisions_across_seasons['Season'] = match_data['Season']
             toss_decisions_across_seasons['toss_decision'] = match_data['toss_decision']
-            st.dataframe(toss_decisions_across_seasons)
+            st.dataframe(toss_decisions_across_seasons.style.set_properties(**table_style))
 
         columns = st.columns([1.5, 1])
         with columns[0]:
@@ -160,16 +142,9 @@ def app():
             st.pyplot(fig)
 
         with columns[1]:
-
-            st.subheader("")
-            st.subheader("")
-            st.write("")
-            st.subheader("")
             toss_decisions = decision_count
             toss_decisions = toss_decisions.reset_index().drop('index', axis=1)
-            st.write(toss_decisions.shape[0])
-            st.subheader("")
-            st.dataframe(toss_decisions)
+            st.dataframe(toss_decisions.style.set_properties(**table_style))
 
     st.subheader("Top Run scorers")
     with st.expander("Top Run scorers", expanded=True):
@@ -190,13 +165,8 @@ def app():
             st.pyplot(fig)
 
         with columns[1]:
-
-            st.subheader("")
-            st.subheader("")
-            st.write("")
-            st.subheader("")
             scorers = runs.sort_values(by='runs', ascending=False).reset_index().drop('index', axis=1)
-            st.dataframe(scorers)
+            st.dataframe(scorers.style.set_properties(**table_style))
 
     st.subheader("Highest Man of Match Winners")
     with st.expander("Highest Man of Match Winners", expanded=True):
@@ -214,9 +184,4 @@ def app():
             st.pyplot(fig)
 
         with columns[0]:
-
-            st.subheader("")
-            st.subheader("")
-            st.write("")
-            st.subheader("")
             st.dataframe(winners)
