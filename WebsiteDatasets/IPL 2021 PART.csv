@@ -1,0 +1,138 @@
+Player_Name,Country,Playing_Role,Status,Franchise,Salary
+MS Dhoni,India,Batsman / Wicket-keeper,Retained,CSK,1500
+Suresh Raina,India,Batsman,Retained,CSK,1100
+Ravindra Jadeja,India,All Rounder,Retained,CSK,700
+Dwayne Bravo,Trinidad and Tobago,All Rounder,Retained,CSK,640
+Sam Curran,England,All Rounder,Retained,CSK,550
+Karn Sharma,India,All Rounder,Retained,CSK,500
+Shardul Thakur,India,Bowler,Retained,CSK,260
+Ambati Rayudu,India,Batsman,Retained,CSK,220
+Josh Hazlewood,Australia,Bowler,Retained,CSK,200
+Faf du Plessis,South Africa,Batsman,Retained,CSK,160
+Imran Tahir,South Africa,Bowler,Retained,CSK,100
+Deepak Chahar,India,Bowler,Retained,CSK,80
+Lungisani Ngidi,South Africa,Bowler,Retained,CSK,50
+Mitchell Santner,New Zealand,Bowler,Retained,CSK,50
+KM Asif,India,Bowler,Retained,CSK,40
+Jagadeesan Narayan,India,Batsman / Wicket-keeper,Retained,CSK,20
+Ruturaj Gaikwad,India,Batsman,Retained,CSK,20
+R Sai Kishore,India,Bowler,Retained,CSK,20
+KL Rahul,India,Batsman / Wicket-keeper,Retained,PBKS,1100
+Mohammed Shami,India,Bowler,Retained,PBKS,480
+Nicholas Pooran,Trinidad and Tobago,Batsman,Retained,PBKS,420
+Chris Jordan,England,Bowler,Retained,PBKS,300
+Chris Gayle,Jamaica,Batsman,Retained,PBKS,200
+Ravi Bishnoi,India,Bowler,Retained,PBKS,200
+Mandeep Singh,India,All Rounder,Retained,PBKS,140
+Mayank Agarwal,India,Batsman,Retained,PBKS,100
+Prabhsimran Singh,India,Batsman / Wicket-keeper,Retained,PBKS,55
+Deepak Hooda,India,All Rounder,Retained,PBKS,50
+Darshan Nalkande,India,Bowler,Retained,PBKS,30
+Sarfaraz Khan,India,Batsman,Retained,PBKS,25
+Arshdeep Singh,India,Bowler,Retained,PBKS,20
+Harpreet Brar,India,Bowler,Retained,PBKS,20
+Murugan Ashwin,India,Bowler,Retained,PBKS,20
+Ishan Porel,India,Bowler,Retained,PBKS,20
+Rishabh Pant,India,Batsman / Wicket-keeper,Retained,DC,800
+Shimron Hetmyer,Guyana,Batsman,Retained,DC,775
+Ravichandran Ashwin,India,Bowler,Retained,DC,760
+Shreyas Iyer,India,Batsman,Retained,DC,700
+Ajinkya Rahane,India,Batsman,Retained,DC,525
+Shikhar Dhawan,India,Batsman,Retained,DC,520
+Axar Patel,India,All Rounder,Retained,DC,500
+Marcus Stoinis,Australia,All Rounder,Retained,DC,480
+Kagiso Rabada,South Africa,Bowler,Retained,DC,420
+Amit Mishra,India,Bowler,Retained,DC,400
+Chris Woakes,England,All Rounder,Retained,DC,150
+Prithvi Shaw,India,Batsman,Retained,DC,120
+Ishant Sharma,India,Bowler,Retained,DC,110
+Anrich Nortje,South Africa,Bowler,Retained,DC,89.82
+Avesh Khan,India,Bowler,Retained,DC,70
+Lalit Yadav,India,All Rounder,Retained,DC,20
+Praveen Dubey,India,Bowler,Retained,DC,20
+Ben Stokes,England,All Rounder,Retained,RR,1250
+Sanju Samson,India,Batsman / Wicket-keeper,Retained,RR,800
+Jofra Archer,England,Bowler,Retained,RR,720
+Jos Buttler,England,Batsman / Wicket-keeper,Retained,RR,440
+Robin Uthappa,India,Batsman,Retained,RR,300
+Jaydev Unadkat,India,Bowler,Retained,RR,300
+Rahul Tewatia,India,All Rounder,Retained,RR,300
+Yashasvi Jaiswal,India,Batsman,Retained,RR,240
+Mayank Markande,India,Bowler,Retained,RR,200
+Kartik Tyagi,India,Bowler,Retained,RR,130
+Andrew Tye,Australia,Bowler,Retained,RR,100
+Anuj Rawat,India,Batsman / Wicket-keeper,Retained,RR,80
+David Miller,South Africa,Batsman,Retained,RR,75
+Mahipal Lomror,India,All Rounder,Retained,RR,20
+Manan Vohra,India,Batsman,Retained,RR,20
+Riyan Parag,India,Batsman,Retained,RR,20
+Shreyas Gopal,India,All Rounder,Retained,RR,20
+Pat Cummins,Australia,Bowler,Retained,KKR,1550
+Sunil Narine,Trinidad and Tobago,All Rounder,Retained,KKR,850
+Andre Russell,Jamaica,All Rounder,Retained,KKR,700
+Dinesh Karthik,India,Batsman / Wicket-keeper,Retained,KKR,740
+Kuldeep Yadav,India,Bowler,Retained,KKR,580
+Eoin Morgan,England,Batsman,Retained,KKR,525
+Varun Chakravarthy,India,Bowler,Retained,KKR,400
+Nitish Rana,India,Batsman,Retained,KKR,340
+Kamlesh Nagarkoti,India,Bowler,Retained,KKR,320
+Shivam Mavi,India,Bowler,Retained,KKR,300
+Shubman Gill,India,Batsman,Retained,KKR,180
+Lockie Ferguson,New Zealand,Bowler,Retained,KKR,160
+Rinku Singh,India,Batsman,Retained,KKR,80
+Rahul Tripathi,India,Batsman,Retained,KKR,60
+Tim Seifert,New Zealand,Batsman / Wicket-keeper,Retained,KKR,50
+Prasidh Krishna,India,Bowler,Retained,KKR,20
+Sandeep Warrier,India,Bowler,Retained,KKR,20
+Rohit Sharma,India,Batsman,Retained,MI,1500
+Hardik Pandya,India,All Rounder,Retained,MI,1100
+Krunal Pandya,India,All Rounder,Retained,MI,880
+Jasprit Bumrah,India,Bowler,Retained,MI,700
+Ishan Kishan,India,Batsman,Retained,MI,620
+Kieron Pollard,Trinidad and Tobago,All Rounder,Retained,MI,540
+Suryakumar Yadav,India,Batsman,Retained,MI,320
+Trent Boult,New Zealand,Bowler,Retained,MI,320
+Quinton de Kock,South Africa,Batsman / Wicket-keeper,Retained,MI,280
+Chris Lynn,Australia,Batsman,Retained,MI,200
+Rahul Chahar,India,Bowler,Retained,MI,190
+Anmolpreet Singh,India,Batsman,Retained,MI,80
+Dhawal Kulkarni,India,Bowler,Retained,MI,75
+Jayant Yadav,India,All Rounder,Retained,MI,50
+Saurabh Tiwary,India,Batsman,Retained,MI,50
+Aditya Tare,India,Batsman / Wicket-keeper,Retained,MI,20
+Anukul Roy,India,All Rounder,Retained,MI,20
+Mohsin Khan,India,Bowler,Retained,MI,20
+Virat Kohli,India,Batsman,Retained,RCB,1700
+AB de Villiers,South Africa,Batsman / Wicket-keeper,Retained,RCB,1100
+Yuzvendra Chahal,India,Bowler,Retained,RCB,600
+Kane Richardson,Australia,Bowler,Retained,RCB,400
+Washington Sundar,India,All Rounder,Retained,RCB,320
+Navdeep Saini,India,Bowler,Retained,RCB,300
+Mohammed Siraj,India,Bowler,Retained,RCB,260
+Adam Zampa,Australia,Bowler,Retained,RCB,150
+Josh Philippe,Australia,Batsman / Wicket-keeper,Retained,RCB,20
+Devdutt Padikkal,India,Batsman,Retained,RCB,20
+Pavan Deshpande,India,All Rounder,Retained,RCB,20
+Shahbaz Ahmed,India,All Rounder,Retained,RCB,20
+David Warner,Australia,Batsman,Retained,SRH,1200
+Manish Pandey,India,Batsman,Retained,SRH,1100
+Rashid Khan,Afghanistan,Bowler,Retained,SRH,900
+Bhuvneshwar Kumar,India,Bowler,Retained,SRH,850
+Siddarth Kaul,India,Bowler,Retained,SRH,380
+Shahbaz Nadeem,India,Bowler,Retained,SRH,320
+Vijay Shankar,India,All Rounder,Retained,SRH,320
+Kane Williamson,New Zealand,Batsman,Retained,SRH,300
+Khaleel Ahmed,India,Bowler,Retained,SRH,300
+Sandeep Sharma,India,Bowler,Retained,SRH,300
+Jonny Bairstow,England,Batsman / Wicket-keeper,Retained,SRH,220
+Mitchell Marsh,Australia,All Rounder,Retained,SRH,200
+Priyam Garg,India,Batsman,Retained,SRH,190
+Virat Singh,India,Batsman,Retained,SRH,190
+Wriddhiman Saha,India,Batsman / Wicket-keeper,Retained,SRH,120
+Mohammad Nabi,Afghanistan,All Rounder,Retained,SRH,100
+Shreevats Goswami,India,Batsman / Wicket-keeper,Retained,SRH,100
+Basil Thampi,India,Bowler,Retained,SRH,95
+Jason Holder,Barbados,All Rounder,Retained,SRH,75
+Abhishek Sharma,India,All Rounder,Retained,SRH,55
+Thangarasu Natarajan,India,Bowler,Retained,SRH,40
+Abdul Samad,India,All Rounder,Retained,SRH,20
